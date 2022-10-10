@@ -1,5 +1,5 @@
 node {
-   def mvnHome = tool 'M2'
+   def mvnHome = tool 'M2_HOME'
 
    stage('Checkout Code') { 
       git 'https://github.com/maping/java-maven-calculator-web-app.git'
